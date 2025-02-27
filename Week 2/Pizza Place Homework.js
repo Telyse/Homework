@@ -9,12 +9,12 @@ console.log(
   `${pizzaPlace} offers ${numberOfToppings} toppings to choose from for your pizza!`
 );
 
-if (numberOfToppings) {
+if (numberOfToppings >= 10) {
   console.log("A whole lot of pizza.");
 } else {
   console.log("Quality, not quantity.");
 }
 
-for (let numberOfToppings = 1; numberOfToppings <= 6; numberOfToppings++) {
-  console.log(numberOfToppings * 2);
+for (let i = 1; i < numberOfToppings; i++) {
+  console.log(i * 2);
 }
