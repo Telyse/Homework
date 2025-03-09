@@ -1,0 +1,44 @@
+html {
+  background-color: beige
+}
+
+div {
+  margin: 30px;
+}
+
+h2 {
+  text-align: center;
+  color: black;
+  border: 10px;
+}
+
+img {
+  border-color: black;
+  border: 10px;
+}
+
+p {
+  margin: 10px;
+  color: black;
+}
+
+h4 {
+  color: black;
+}
+
+ul {
+  padding: 20px;
+  color: black;
+}
+
+p2 {
+  color: black;
+}
+
+a {
+  color: black;
+}
+
+li:hover {
+  color: red;
+}
