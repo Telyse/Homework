@@ -2,8 +2,9 @@ html {
   background-color: beige
 }
 
-div {
-  margin: 30px;
+div,
+.flex {
+  text-align: center;
 }
 
 h2 {
